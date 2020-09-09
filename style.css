@@ -1,0 +1,151 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+
+}
+
+#container::after {
+    content: "";
+    display: table;
+    clear: both;
+
+}
+
+
+#container {
+    width: calc(100 - 100px);
+    margin-left: 50px;
+    margin-right: 50px;
+    /* height: 500px; */
+}
+
+header{
+    background-image: url(https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-header.jpg);
+    /* height: 100px; */
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-top: 30px;
+    text-align: center;
+    vertical-align: middle;
+    color:white;
+    padding: 100px, 0;
+    border: 10px;
+    border-color: white;
+    border-style: solid;
+    height: 300px;
+    /* margin-bottom: 10px; */
+    /* margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+    height: 300px; */
+
+}
+
+h1{
+    text-transform: uppercase;
+    /* text-align: center;
+    vertical-align: middle; */
+    margin-top: 50px;
+    margin-bottom: 20px;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: 'Montserrat';
+}
+
+h2{
+    text-transform: uppercase;
+    /* text-align: center; */
+    vertical-align: middle;
+    font-size: 25px;
+    font-weight: normal;
+    margin-bottom: 50px;
+}
+
+body{
+    background-image: url("https://organicthemes.com/demo/natural-lite/wp-content/themes/natural-lite/images/default-pattern.png")
+}
+
+nav{
+    background-color: #504741;
+    height: 50px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+    color: white;
+    text-transform: uppercase;
+    line-height: 1.8;
+}
+
+nav ul{
+    text-align: center;
+}
+
+nav li{
+    display: inline-block;
+    vertical-align: center;
+    height: 50px;
+    line-height: 50px;
+    padding: 0, 10px;
+}
+
+nav li:hover{
+    background-color:#302827;
+}
+
+nav a{
+    color: white;
+    text-decoration: none;
+}
+
+aside{
+    background-color: violet;
+    float: left;
+    width: 25%;
+    /* height: 350px; */
+    margin-right: 10px;
+}
+
+main{
+    background-color: purple;
+    float: left;
+    width: calc(50% - 20px);
+    /* height: 500px; */
+
+}
+
+.sideright {
+    margin-left: 10px;
+    /* margin-bottom: 10px; */
+    float: left;
+    width: 25%;
+}
+
+.box{
+    background-color: violet;
+    margin-bottom: 10px;
+    /* width:25%; */
+    /* height: 250px; */
+
+}
+
+.box{
+    background-color: violet;
+    /* width:25%; */
+    /* height: 210px; */
+    /* margin-left: 10px; */
+    /* margin-top: 10px; */
+}
+
+
+footer{
+    background-color: lightblue;
+    /* height: 50px; */
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 100%;
+    float: left;
+}
